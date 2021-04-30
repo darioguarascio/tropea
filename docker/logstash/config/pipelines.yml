@@ -1,8 +1,0 @@
-
-- pipeline.id: http
-  path.config: "/usr/share/logstash/pipeline/http.conf"
-  queue.type: memory
-
-#  pipeline.workers: 3
-- pipeline.id: logs
-  path.config: "/usr/share/logstash/pipeline/http.conf"

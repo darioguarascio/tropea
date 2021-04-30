@@ -1,9 +1,0 @@
-debug: 0
-routes:
-  app:
-    tracker:
-      pattern: /track/{url:.+}/{qs:.*}
-      controller: Tracker::track
-    index:
-      pattern: /
-      controller: Index::index

@@ -1,9 +1,0 @@
-
-# vars used in `generate_vcl.sh`
-
-VARNISHD_MEMORY="malloc,16m"
-VARNISHD_VCL_PATH=/etc/varnish/default.vcl
-
-BACKEND_CONNECTION_TIMEOUT=3
-BACKEND_FIRST_BYTE_TIMEOUT=25
-BACKEND_BETWEEN_BYTES_TIMEOUT=3
